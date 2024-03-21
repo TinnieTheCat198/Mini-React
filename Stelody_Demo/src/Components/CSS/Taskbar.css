@@ -1,0 +1,94 @@
+.taskbar {
+    display: flex;
+    width: 1130px;
+    height: 90px;
+    flex-shrink: 0;
+    border-radius: 75px;
+    border: 3px solid #232931;
+    background: rgba(82, 74, 121, 0.70);
+    align-self: flex-end;
+    align-items: center;
+}
+
+button {
+    box-sizing: border-box;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.favourite {
+    margin-top: 25px;
+    margin-bottom: 24px;
+    margin-left: 44px;
+}
+
+.theme {
+    width: 260.988px;
+    height: 57px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    border: 2px solid #97D8EC;
+    background: #3E3245;
+    margin-top: 23px;
+    margin-bottom: 21px;
+    margin-left: 30.01px;
+    color: #F6F494;
+    text-align: center;
+    font-family: Coiny;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.previous {
+    margin-top: 22px;
+    margin-bottom: 22px;
+    margin-left: 25px;
+}
+
+.play-stop {
+    margin-top: 14px;
+    margin-bottom: 13px;
+    margin-left: 27px;
+}
+
+.next {
+    margin-top: 23px;
+    margin-bottom: 21px;
+    margin-left: 29px;
+}
+
+.volumn {
+    width: 50.2px;
+    height: 37.524px;
+    flex-shrink: 0;
+    margin-top: 28px;
+    margin-bottom: 31.48px;
+    margin-left: 37px;
+}
+
+.timer {
+    width: 40px;
+    height: 44px;
+    flex-shrink: 0;
+    margin-top: 26px;
+    margin-bottom: 28px;
+    margin-left: 51.8px;
+}
+
+.todo-list {
+    width: 50.2px;
+    height: 37.333px;
+    flex-shrink: 0;
+    margin-top: 30px;
+    margin-bottom: 31.67px;
+    margin-left: 47px;
+}
+
+.options {
+    margin-top: 20px;
+    margin-bottom: 18px;
+    margin-left: 36.8px;
+}
